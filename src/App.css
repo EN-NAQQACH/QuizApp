@@ -36,3 +36,21 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.btncollection{
+  display: flex;
+  max-height: 50px;
+  flex-direction: column;
+}
+.btncollection button{
+  margin-top: 5px;
+}
+.nextbtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.nextbtn button{
+  width: 100%;
+}

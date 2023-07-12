@@ -1,5 +1,82 @@
-const List = [
+export const QuizList = [
     {
-        qs: ''
-    }
-]
+      qs: "What is the capital of France?",
+      op1: "London",
+      op2: "Paris",
+      op3: "Rome",
+      op4: "Madrid",
+      ans: 'b',
+    },
+    {
+      qs: "Who painted the Mona Lisa?",
+      op1: "Vincent van Gogh",
+      op2: "Leonardo da Vinci",
+      op3: "Pablo Picasso",
+      op4: "Michelangelo",
+      ans: 'b',
+    },
+    {
+      qs: "What is the largest planet in our solar system?",
+      op1: "Earth",
+      op2: "Mars",
+      op3: "Jupiter",
+      op4: "Saturn",
+      ans: 'c',
+    },
+    {
+      qs: "Who wrote the play 'Romeo and Juliet'?",
+      op1: "William Shakespeare",
+      op2: "Jane Austen",
+      op3: "Charles Dickens",
+      op4: "F. Scott Fitzgerald",
+      ans: 'a',
+    },
+    {
+      qs: "What is the chemical symbol for gold?",
+      op1: "Au",
+      op2: "Ag",
+      op3: "Fe",
+      op4: "Hg",
+      ans: 'a',
+    },
+    {
+      qs: "Who was the first person to step on the moon?",
+      op1: "Neil Armstrong",
+      op2: "Buzz Aldrin",
+      op3: "Yuri Gagarin",
+      op4: "John Glenn",
+      ans: 'a',
+    },
+    {
+      qs: "What is the largest ocean on Earth?",
+      op1: "Pacific Ocean",
+      op2: "Atlantic Ocean",
+      op3: "Indian Ocean",
+      op4: "Arctic Ocean",
+      ans: 'a',
+    },
+    {
+      qs: "Who is the author of the Harry Potter book series?",
+      op1: "J.R.R. Tolkien",
+      op2: "J.K. Rowling",
+      op3: "Stephen King",
+      op4: "George R.R. Martin",
+      ans: 'b',
+    },
+    {
+      qs: "What is the chemical symbol for water?",
+      op1: "Wa",
+      op2: "Wt",
+      op3: "H2O",
+      op4: "Wo",
+      ans: 'c',
+    },
+    {
+      qs: "Who painted the famous artwork 'The Starry Night'?",
+      op1: "Claude Monet",
+      op2: "Salvador Dalí",
+      op3: "Vincent van Gogh",
+      op4: "Pablo Picasso",
+      ans: 'c',
+    },
+  ];
