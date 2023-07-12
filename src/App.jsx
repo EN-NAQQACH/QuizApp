@@ -9,11 +9,12 @@ import { QuizContext } from "./Context/Context";
 
 function App() {
   const [game, setgame] = useState("Menu");
+  const [score, setscore] = useState(0); 
 
   return (
     <div className="App">
       <h1>Quiz App</h1>
-      <QuizContext.Provider value={{game, setgame}}>
+      <QuizContext.Provider value={{game, setgame , score, setscore}}>
         {game === "Menu" && <MainMenu />}
         {game === "QuizMenu" && <QuizMenu />}
         {game === "EndQuiz" && <EndQuiz />}

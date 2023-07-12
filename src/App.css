@@ -54,3 +54,19 @@ button:focus-visible {
 .nextbtn button{
   width: 100%;
 }
+.score{
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid  transparent;
+  padding: 30px 10px 30px 10px;
+  border-radius: 50%;
+  width: 80px;
+  margin: auto;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #1a1a1a;
+}
+.h2{
+  text-align: center;
+  font-size: 2rem;
+}
